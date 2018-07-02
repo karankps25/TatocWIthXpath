@@ -70,7 +70,7 @@ public class Tatoc
      driver.switchTo().window(subWindowHandler);
      
      WebElement name = driver.findElement(By.id("name"));
-     name.sendKeys("Akash");
+     name.sendKeys("karan");
      driver.findElement(By.id("submit")).click();
      driver.switchTo().window(parentWindowHandler); 
      driver.findElement(By.xpath("/html/body/div/div[2]/a[2]")).click();
